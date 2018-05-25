@@ -1,7 +1,8 @@
 ##### DATA TRANSFORMATION #####
 # Code used to transform/tokenize books data for analyzing data in
 # `analyze_books.R` exercise. You don't need to touch this file! :)
-
+#install.packages("janeaustenr")
+#install.packages("tidytext")
 library(janeaustenr)
 library(dplyr)
 library(stringr)
